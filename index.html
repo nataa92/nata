@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MyCompany - Beranda</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .service-section {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .service-section h2 {
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      width: 100%;
+      max-width: 1200px;
+    }
+    .card {
+      background: rgb(253, 253, 253);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<aside class="sidebar">
+  <a href="index.html" class="brand">MyCompany</a>
+  <ul class="nav-list">
+    <li><a href="index.html" class="active">Beranda</a></li>
+    <li><a href="about.html">Tentang</a></li>
+    <li><a href="service.html">Layanan</a></li>
+    <li><a href="contact.html">Kontak</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="register.html">Register</a></li>
+  </ul>
+</aside>
+<div class="top-nav">
+    <a href="index.html">Beranda</a>
+    <a href="about.html">Tentang</a>
+    <a href="service.html">Layanan</a>
+    <a href="contact.html">Kontak</a>
+</div>
+<main>
+  <section class="hero">
+    <h2>Solusi Digital Elegan & Profesional</h2>
+    <p>Kami membantu brand Anda tampil modern di era digital.</p>
+   <p class="teks-anda">Teks ini akan sedikit naik.</p>
+    <a href="service.html" style="background:white; color:var(--primary); padding: 0,3rem 1 rem; border-radius:100px; text-decoration:mediumaquamarine; font-weight:bold; -top: -5px; margin-left: 0,5rem 1rem; ">Lihat Layanan</a>
+
+  </section>
+
+  <section class="service-section">
+    <h2>Layanan Kami</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Desain Profesional</h3>
+        <p>Desain yang bersih, minimal, dan berfokus pada UX.</p>
+      </div>
+      <div class="card">
+        <h3>Pengembangan Cepat</h3>
+        <p>Kami menerapkan praktik terbaik untuk waktu pengembangan efisien.</p>
+      </div>
+      <div class="card">
+        <h3>Support & Maintenance</h3>
+        <p>Pendampingan agar website tetap optimal.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MyCompany. All rights reserved.</p>
+  </footer>
+</main>
+</body>
+</html>
